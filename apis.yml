@@ -1,8 +1,29 @@
 aid: homeward-health
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/homeward-health.png
 name: Homeward Health
-description: Homeward Health is a company surfaced as a portfolio company of general-catalyst and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Homeward Health is a value-based healthcare provider founded in 2022 by former
+  Livongo executives (CEO Dr. Jennifer Schneider) and incubated as the first
+  investment in General Catalyst's Creation fund. Homeward is rearchitecting
+  rural healthcare for the roughly 60 million Americans living in rural
+  communities, taking on full financial risk for the total cost of care of
+  Medicare Advantage members. Its hybrid care model combines telehealth visits
+  over cellular networks, in-home remote patient monitoring, and in-person care
+  delivered through mobile care units, in partnership with regional health plans
+  (e.g. Priority Health), local providers, and community organizations. Homeward
+  is a care-delivery and health-plan-partnership company rather than a developer
+  platform; it publishes no public developer program, API, or SDK.
 url: https://raw.githubusercontent.com/api-evangelist/homeward-health/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,12 +33,39 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Healthcare
+- Rural Health
+- Value-Based Care
+- Medicare Advantage
+- Telehealth
+- Remote Patient Monitoring
+- Primary Care
 apis: []
+common:
+- type: DomainSecurity
+  url: security/homeward-health-domain-security.yml
+- type: LLMsTxt
+  url: llms/homeward-health-llms.txt
+- type: Website
+  url: https://www.homewardhealth.com/
+- type: About
+  url: https://www.homewardhealth.com/about-us
+- type: TermsOfService
+  url: https://www.homewardhealth.com/terms-of-use
+- type: PrivacyPolicy
+  url: https://homewardhealth.com/privacy
+- type: Careers
+  url: https://www.homewardhealth.com/careers
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

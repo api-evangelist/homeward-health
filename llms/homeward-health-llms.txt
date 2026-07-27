@@ -1,0 +1,21 @@
+# Homeward Health
+
+> Homeward Health is a value-based, full-risk healthcare provider (founded 2022, CEO Dr. Jennifer Schneider) rearchitecting rural healthcare for Medicare Advantage members via telehealth over cellular networks, in-home remote patient monitoring, and mobile care units, in partnership with regional health plans. Homeward is a care-delivery company and publishes no public developer API, SDK, or MCP server.
+
+## Company
+
+- [Homeward Health](https://www.homewardhealth.com/): Company home page.
+- [About Homeward Health](https://www.homewardhealth.com/about-us): Mission, care model, and leadership.
+- [Care Team](https://www.homewardhealth.com/care-team): Multidisciplinary rural care team model.
+- [For Health Plans](https://www.homewardhealth.com/health-plans): Health-plan partnership offering.
+- [Careers](https://www.homewardhealth.com/careers): Open roles.
+
+## Legal
+
+- [Terms of Use](https://www.homewardhealth.com/terms-of-use)
+- [Privacy Policy](https://homewardhealth.com/privacy)
+
+## Notes
+
+- No public API, developer portal, SDK, CLI, MCP server, or /.well-known/ discovery surface as of 2026-07-19.
+- Backed by General Catalyst (Creation fund) with additional investors ARCH Venture Partners and Human Capital.
